@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-size: 18px; */
+}
+#bigBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+#inpt{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+}
+body{
+  background: linear-gradient(120deg, #5a74e6, #415ddb);
+}
+#display{
+  padding: 20px ;
+}
